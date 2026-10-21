@@ -1,3 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Benim Kanalim" group-title="Ozel Yayınlar", Benim Kanalım
-https://andro.evrenesoglu157.click/checklist/batutest.m3u8
+
+#EXTINF:-1,Kanal 1
+https://andro.evrenesoglu155.click/checklist/batutest.m3u8
+
+#EXTINF:-1,Kanal 2
+https://andro.evrenesoglu155.click/checklist/androstreamlivebs2.m3u8
+
+#EXTVLCOPT:http-referrer=https://fastplay.mom/
+#EXTINF:-1,Fastplay Video
+https://fastplay.mom/manifests/KVhC7aPytoFd/video~video.txt?verify=1792584000-h%2FMsiLUEgZlL9OImH%2Fw%2FKJuBQVU3CIEC6Kq6tECCLcs%3D
