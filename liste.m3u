@@ -1,11 +1,164 @@
-#EXTM3U
-
-#EXTINF:-1,Kanal 1
-https://andro.evrenesoglu155.click/checklist/batutest.m3u8
-
-#EXTINF:-1,Kanal 2
-https://andro.evrenesoglu155.click/checklist/androstreamlivebs2.m3u8
-
-#EXTVLCOPT:http-referrer=https://fastplay.mom/
-#EXTINF:-1,Fastplay Video
-https://fastplay.mom/manifests/KVhC7aPytoFd/video~video.txt?verify=1792584000-h%2FMsiLUEgZlL9OImH%2Fw%2FKJuBQVU3CIEC6Kq6tECCLcs%3D
+{
+  "channels": [
+    {
+      "name": "Show TV",
+      "pageUrl": "https://www.showtv.com.tr/canli-yayin"
+    },
+    {
+      "name": "Kanal D",
+      "pageUrl": "https://www.kanald.com.tr/canli-yayin"
+    },
+    {
+      "name": "Atv",
+      "pageUrl": "https://www.atv.com.tr/canli-yayin",
+      "resolver": {
+        "type": "regex",
+        "url": "https://securevideotoken.tmgrup.com.tr/webtv/secure?938553&url=https%3A%2F%2Ftrkvz-live.ercdn.net%2Fatvhd%2Fatvhd.m3u8&url2=https%3A%2F%2Ftrkvz-live.ercdn.net%2Fatvhd%2Fatvhd.m3u8",
+        "pattern": "(https://[^\"]+\\.m3u8[^\"]*)"
+      }
+    },
+    {
+      "name": "Star",
+      "pageUrl": "https://dogus.daioncdn.net/startv/startv_720p.m3u8?&sid=abc123xyz789&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3"
+    },
+    {
+      "name": "Beyaz TV",
+      "pageUrl": "https://www.canlitv.me/live/beyaztvcanli"
+    },
+    {
+      "name": "D max",
+      "pageUrl": "https://www.canlitv.me/live/dmax-canli-hd"
+    },
+    {
+      "name": "Kanal 7",
+      "pageUrl": "https://www.kanal7.com/canli-izle"
+    },
+    {
+      "name": "Tv 8",
+      "pageUrl": "https://www.tv8.com.tr/canli-yayin"
+    },
+    {
+      "name": "Now tv",
+      "pageUrl": "https://www.nowtv.com.tr/canli-yayin"
+    },
+    {
+      "name": "Sözcü TV",
+      "pageUrl": "https://www.canlitv.me/live/sozcutvcanli-hd"
+    },
+    {
+      "name": "TRT 1",
+      "pageUrl": "https://de.livestream.ad/trt-1-live",
+      "referer": "https://de.livestream.ad/"
+    },
+    {
+      "name": "TRT 2",
+      "pageUrl": "https://www.canlitv.me/live/trt2canlihd-izle"
+    },
+    {
+      "name": "TRT Türk",
+      "pageUrl": "https://www.canlitv.me/live/trtturkcanli-hd"
+    },
+    {
+      "name": "TV4",
+      "pageUrl": "https://www.canlitv.me/live/tv4"
+    },
+    {
+      "name": "TV8,5",
+      "pageUrl": "https://de.livestream.ad/tv8-5-live",
+      "referer": "https://de.livestream.ad/"
+    },
+    {
+      "name": "A Haber",
+      "pageUrl": "https://www.canlitv.me/live/ahaber-canli"
+    },
+    {
+      "name": "Ntv",
+      "pageUrl": "https://www.canlitv.me/live/ntvcanlihd-izle"
+    },
+    {
+      "name": "Cnn turk",
+      "pageUrl": "https://www.cnnturk.com/canli-yayin",
+      "referer": "https://www.cnnturk.com/",
+      "resolver": {
+        "type": "regex",
+        "url": "https://www.cnnturk.com/api/cnnvideo/media?id=62d6814670380e2cdc7c124c&isMobile=false",
+        "base": "https://live.duhnet.tv",
+        "pattern": "(/S2/HLS_LIVE/cnnturknp/playlist\\.m3u8\\?[^\"\\\\]+)"
+      }
+    },
+    {
+      "name": "Habertürk TV",
+      "pageUrl": "https://de.livestream.ad/haberturk-tv",
+      "referer": "https://de.livestream.ad/"
+    },
+    {
+      "name": "KRT TV",
+      "pageUrl": "https://de.livestream.ad/krt-tv",
+      "referer": "https://de.livestream.ad/"
+    },
+    {
+      "name": "TV100",
+      "pageUrl": "https://de.livestream.ad/tv100-live",
+      "referer": "https://de.livestream.ad/"
+    },
+    {
+      "name": "Flash Haber",
+      "pageUrl": "https://www.canlitv.me/live/flashhaber-canli"
+    },
+    {
+      "name": "A Spor",
+      "pageUrl": "https://www.canlitv.me/live/asporcanli"
+    },
+    {
+      "name": "TRT Spor",
+      "pageUrl": "https://de.livestream.ad/trt-spor-live",
+      "referer": "https://de.livestream.ad/"
+    },
+    {
+      "name": "Tivibu Spor",
+      "pageUrl": "https://www.canlitv.me/live/tivibusporcanli-hd"
+    },
+    {
+      "name": "TRT Müzik",
+      "pageUrl": "https://www.canlitv.me/live/trtmuzikcanli-hd"
+    },
+    {
+      "name": "Show Türk",
+      "pageUrl": "https://de.livestream.ad/show-turk",
+      "referer": "https://de.livestream.ad/"
+    },
+    {
+      "name": "Show Max",
+      "pageUrl": "https://de.livestream.ad/show-max",
+      "referer": "https://de.livestream.ad/"
+    },
+    {
+      "name": "Number One Türk TV",
+      "pageUrl": "https://www.canlitv.me/live/number-one-turk-tv"
+    },
+    {
+      "name": "Tempo TV",
+      "pageUrl": "https://www.canlitv.me/live/tempo-tv-hd"
+    },
+    {
+      "name": "Yıldız En TV",
+      "pageUrl": "https://www.canlitv.me/live/yildiz-en-tv-hd"
+    },
+    {
+      "name": "TRT Çocuk",
+      "pageUrl": "https://www.canlitv.me/live/trtcocuk-canli-hd"
+    },
+    {
+      "name": "Minika Çocuk",
+      "pageUrl": "https://www.canlitv.me/live/minikacocuk-hd"
+    },
+    {
+      "name": "Minika GO",
+      "pageUrl": "https://www.canlitv.me/live/minikago-canli-hd"
+    },
+    {
+      "name": "Cartoon Network",
+      "pageUrl": "https://www.canlitv.me/live/cartoonnetwork"
+    }
+  ]
+}
