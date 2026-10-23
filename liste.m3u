@@ -159,6 +159,11 @@
     {
       "name": "Cartoon Network",
       "pageUrl": "https://www.canlitv.me/live/cartoonnetwork"
-    }
+    },
+    {
+  "name": "Batu Test",
+  "pageUrl": "https://andro.evrenesoglu157.click/checklist/batutest.m3u8",
+  "referer": "https://andro.evrenesoglu157.click/"
+}
   ]
 }
